@@ -1,9 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { Text, Button} from "@chakra-ui/react";
 
 function App() {
   return (
-   <div>APP</div>
+    <>
+   <Text fontWeight={600} color={"red.500"}>APP</Text>
+   <Button colorScheme='blue'>Button</Button>
+   <Button colorScheme='teal' variant='outline' > Button</Button>
+  </>
   );
 }
 
